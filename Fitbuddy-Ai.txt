@@ -1,0 +1,24 @@
+# Copy this file to .env
+# Then replace the value below with your Gemini API key.
+
+GEMINI_API_KEY=your_gemini_api_key_here
+
+
+# Gemini model used for workout generation
+
+GEMINI_WORKOUT_MODEL=gemini-3.1-pro-preview
+
+
+# Gemini model used for nutrition/recovery tips
+
+GEMINI_TIP_MODEL=gemini-3.8-flash
+
+
+# Optional database configuration
+
+DATABASE_URL=sqlite:///./fitbuddy.db
+
+
+# Optional AI timeout
+
+AI_TIMEOUT_SECONDS=60
